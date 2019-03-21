@@ -17,7 +17,7 @@ public class Test {
         context.start();
 
         DemoService demoService = (DemoService) context.getBean("demoService");
-        System.out.println(demoService.sayHello("柴柴熊"));
+        System.out.println(demoService.sayHello("柴柴熊和Amy"));
 
         try {
             System.in.read();   //按任意键退出
